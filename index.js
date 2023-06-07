@@ -71,3 +71,23 @@
 // console.log(isPythagorean(3, 4, 5));
 // console.log(isPythagorean(5, 12, 13));
 // console.log(isPythagorean(1, 2, 3)); 
+
+
+//  4-misol
+// let son = 9522471
+// let nol = parseInt((son / 1000000)) == 1 
+// let bir = parseInt((son / 100000)%10) == 1 
+// let ikki = parseInt((son / 10000) % 10) == 1
+// let uch = parseInt((son / 1000) % 10) == 1
+// let tort = parseInt((son / 100) % 10) == 1
+// let besh = parseInt((son / 10) % 10) == 1
+// let olti = parseInt(son % 10) == 1
+// let yig=bir+ikki+uch+tort+besh+olti+nol
+// let nol1 = parseInt((son / 1000000)) 
+// let bir1 = parseInt((son / 100000)%10)
+// let ikki1 = parseInt((son / 10000) % 10)
+// let uch1 = parseInt((son / 1000) % 10)
+// let tort1 = parseInt((son / 100) % 10)
+// let besh1 = parseInt((son / 10) % 10) 
+// let olti1 = parseInt(son % 10) 
+// console.log((bir1+ikki1+uch1+tort1+besh1+olti1+nol1+yig*3)/7)
